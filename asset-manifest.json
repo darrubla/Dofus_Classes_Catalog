@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Dofus_Classes_Catalog/static/css/main.40e4fc91.chunk.css",
+    "main.js": "/Dofus_Classes_Catalog/static/js/main.17cb517d.chunk.js",
+    "main.js.map": "/Dofus_Classes_Catalog/static/js/main.17cb517d.chunk.js.map",
+    "runtime-main.js": "/Dofus_Classes_Catalog/static/js/runtime-main.61d98405.js",
+    "runtime-main.js.map": "/Dofus_Classes_Catalog/static/js/runtime-main.61d98405.js.map",
+    "static/js/2.12cf6d9b.chunk.js": "/Dofus_Classes_Catalog/static/js/2.12cf6d9b.chunk.js",
+    "static/js/2.12cf6d9b.chunk.js.map": "/Dofus_Classes_Catalog/static/js/2.12cf6d9b.chunk.js.map",
+    "index.html": "/Dofus_Classes_Catalog/index.html",
+    "precache-manifest.985ff99060db767dcdaca8a05b2d5eae.js": "/Dofus_Classes_Catalog/precache-manifest.985ff99060db767dcdaca8a05b2d5eae.js",
+    "service-worker.js": "/Dofus_Classes_Catalog/service-worker.js",
+    "static/css/main.40e4fc91.chunk.css.map": "/Dofus_Classes_Catalog/static/css/main.40e4fc91.chunk.css.map",
+    "static/js/2.12cf6d9b.chunk.js.LICENSE.txt": "/Dofus_Classes_Catalog/static/js/2.12cf6d9b.chunk.js.LICENSE.txt",
+    "static/media/dofus.png": "/Dofus_Classes_Catalog/static/media/dofus.4a069183.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61d98405.js",
+    "static/js/2.12cf6d9b.chunk.js",
+    "static/css/main.40e4fc91.chunk.css",
+    "static/js/main.17cb517d.chunk.js"
+  ]
+}
