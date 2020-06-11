@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap");
 
-ul {
-  padding: 0;
-}
-
 .class-item {
   width: auto;
   margin-top: 20px;
@@ -22,11 +18,48 @@ ul {
   );
 }
 
-.class-item__details li {
+.class-item__details {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.class-item__details ul {
+  padding: 0;
+  grid-column: 3/7;
   justify-content: left;
   align-content: center;
   font-size: medium;
   font-family: "Roboto Slab", serif;
   font-weight: 600;
   list-style-type: none;
+}
+
+.class-item__details li {
+  padding: 0;
+  grid-column: 3/7;
+  justify-content: left;
+  align-content: center;
+  font-size: medium;
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+  list-style-type: none;
+}
+
+.class-item__button__male {
+  grid-column: 1/3;
+  border-radius: 0 0 0 40%;
+  background-image: url("https://img.icons8.com/nolan/64/male.png");
+  background-color: inherit;
+  border-style: outset;
+  border: solid;
+}
+
+.class-item__button__female {
+  grid-column: 7/9;
+  border-radius: 0 0 40% 0;
+  background-image: url("https://img.icons8.com/nolan/64/female.png");
+  background-color: inherit;
+  border-style: outset;
+  border: solid;
 }

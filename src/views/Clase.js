@@ -51,7 +51,14 @@ export default class Clase extends Component {
             src={femaleImg}
             alt="class image"
           />
-          <ul className="class-item__details">{listRoles}</ul>
+          <div className="class-item__details">
+            <button type="button" className="class-item__button__male"></button>
+            <ul>{listRoles}</ul>
+            <button
+              type="button"
+              className="class-item__button__female"
+            ></button>
+          </div>
         </div>
       );
     }
