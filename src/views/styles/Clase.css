@@ -2,9 +2,32 @@
 
 .class-item {
   width: auto;
-  margin-top: 20px;
+  max-width: 249.9px;
+  margin: 20px 5px 10px 10px;
   background-color: gray;
   border-radius: 10%;
+}
+
+.class-item__title {
+  height: auto;
+  min-height: 50px;
+  max-width: inherit;
+  display: grid;
+  grid-template-columns: 12px repeat(7, 1fr);
+  justify-content: center;
+  align-content: center;
+}
+
+.class-item__title img {
+  width: 100%;
+  height: 100%;
+  grid-column: 2/3;
+  border-radius: 40%;
+}
+
+.class-item__title h1 {
+  font-size: 25px;
+  grid-column: 3/8;
 }
 
 .class-item__image {
@@ -35,7 +58,7 @@
   list-style-type: none;
 }
 
-.class-item__details li {
+/* .class-item__details li {
   padding: 0;
   grid-column: 3/7;
   justify-content: left;
@@ -44,22 +67,22 @@
   font-family: "Roboto Slab", serif;
   font-weight: 600;
   list-style-type: none;
-}
+} */
 
 .class-item__button__male {
   grid-column: 1/3;
-  border-radius: 0 0 0 40%;
+  border-radius: 0 0 0 44%;
   background-image: url("https://img.icons8.com/nolan/64/male.png");
-  background-color: inherit;
+  background-color: gray;
   border-style: outset;
   border: solid;
 }
 
 .class-item__button__female {
   grid-column: 7/9;
-  border-radius: 0 0 40% 0;
+  border-radius: 0 0 44% 0;
   background-image: url("https://img.icons8.com/nolan/64/female.png");
-  background-color: inherit;
+  background-color: gray;
   border-style: outset;
   border: solid;
 }

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ApiUrl from "../components/ApiUrl";
 import "./styles/Clase.css";
+import img_title from "../views/assets/dofus.png";
 
 export default class Clase extends Component {
   constructor(props) {
@@ -45,12 +46,11 @@ export default class Clase extends Component {
       console.log(this.state.data);
       return (
         <div className="class-item">
-          <h1 className="class-item__title">{name}</h1>
-          <img
-            className="class-item__image"
-            src={femaleImg}
-            alt="class image"
-          />
+          <div className="class-item__title">
+            <img src={img_title} alt="title" />
+            <h1>{name}</h1>
+          </div>
+          <img className="class-item__image" src={femaleImg} alt="class img" />
           <div className="class-item__details">
             <button type="button" className="class-item__button__male"></button>
             <ul>{listRoles}</ul>
