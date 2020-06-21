@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "659183f0cdd39d9ed7f622962772fda0",
+    "revision": "268ca208a44b398445cab4c2d69c1307",
     "url": "/Dofus_Classes_Catalog/index.html"
   },
   {
-    "revision": "2735732508c93bc36971",
-    "url": "/Dofus_Classes_Catalog/static/css/main.40e4fc91.chunk.css"
+    "revision": "8352025a403b3e0a5fec",
+    "url": "/Dofus_Classes_Catalog/static/css/main.f26f9f18.chunk.css"
   },
   {
     "revision": "a4970f82964f679c14cb",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Dofus_Classes_Catalog/static/js/2.12cf6d9b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2735732508c93bc36971",
-    "url": "/Dofus_Classes_Catalog/static/js/main.17cb517d.chunk.js"
+    "revision": "8352025a403b3e0a5fec",
+    "url": "/Dofus_Classes_Catalog/static/js/main.b408b33c.chunk.js"
   },
   {
     "revision": "370948a1c2137525f6a9",

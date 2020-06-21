@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Dofus_Classes_Catalog/precache-manifest.985ff99060db767dcdaca8a05b2d5eae.js"
+  "/Dofus_Classes_Catalog/precache-manifest.75fc8a3557b12a05030bb7cd70d2b416.js"
 );
 
 self.addEventListener('message', (event) => {
